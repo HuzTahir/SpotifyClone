@@ -1,4 +1,4 @@
-#Spotify Clone
+<h1>Spotify Clone</h1>
 Welcome to the Spotify Clone project! This project is a simple yet functional music player that replicates the basic features of Spotify. It is built entirely using HTML, CSS, and JavaScript, without the need for any backend or frontend frameworks.
 
 Features
@@ -11,14 +11,14 @@ Library Access: All tracks are available in the library section for each playlis
 Responsiveness: The layout is designed to be responsive, ensuring a seamless experience on different devices.
 Hamburger Menu: The library section can be accessed by clicking on a hamburger icon, moving it in and out of the screen.
 
-#How to Use
+<h1>How to Use</h1>
 Clone the repository to your local machine:
   git clone https://github.com/your-username/spotify-clone.git
   Open the index.html file in your preferred web browser.
   
 Start exploring and enjoying the Spotify Clone!
 
-#Screenshots
+<h1>Screenshots</h1>
 
 ![image](https://github.com/HuzTahir/SpotifyClone/assets/125734950/2bd6ed45-c484-469c-af08-174909682158)
 ![image](https://github.com/HuzTahir/SpotifyClone/assets/125734950/f0637e3b-9e9e-4f53-bb3c-ffd8423c7970)
@@ -28,10 +28,10 @@ Phone view:
 ![image](https://github.com/HuzTahir/SpotifyClone/assets/125734950/79e7555c-a1bc-4943-be5e-e9464502ad69)
 ![image](https://github.com/HuzTahir/SpotifyClone/assets/125734950/0969f9a6-df21-4328-909f-20fb1dbd27d4)
 
-#Demo
+<h1>Demo</h1>
 You can check out a live demo of the Spotify Clone here: https://spotifyadvance.freewebhostmost.com/
 
-#Contributions
+<h1>Contributions</h1>
 Contributions are welcome! If you have any ideas for improvements or find any issues, feel free to open an issue or create a pull request.
 
 Thank you for checking out the Spotify Clone project! If you have any questions or suggestions, feel free to contact me. Enjoy your music! 🎵
