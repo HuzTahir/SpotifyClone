@@ -3,12 +3,19 @@ Welcome to the Spotify Clone project! This project is a simple yet functional mu
 
 Features
 Playlist Management: Users can add and remove playlists directly from the website.
+
 Playback Controls: Play, pause, skip to the next or previous song with ease.
+
 Playlist Looping: When reaching the end of a playlist, the player automatically starts playing the first song again.
+
 Slider for Track Navigation: A slider allows users to navigate through the track at any point.
+
 Volume Control: Increase or decrease the volume of the track using the volume button.
+
 Library Access: All tracks are available in the library section for each playlist. Selecting a song from the library plays it instantly.
+
 Responsiveness: The layout is designed to be responsive, ensuring a seamless experience on different devices.
+
 Hamburger Menu: The library section can be accessed by clicking on a hamburger icon, moving it in and out of the screen.
 
 <h1>How to Use</h1>
