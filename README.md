@@ -2,6 +2,7 @@
 Welcome to the Spotify Clone project! This project is a simple yet functional music player that replicates the basic features of Spotify. It is built entirely using HTML, CSS, and JavaScript, without the need for any backend or frontend frameworks.
 
 Features
+
 Playlist Management: Users can add and remove playlists directly from the website.
 
 Playback Controls: Play, pause, skip to the next or previous song with ease.
