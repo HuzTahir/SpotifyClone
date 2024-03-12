@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/ico"> <!-- Set the path to your logo -->
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+    <!-- <img src="logo.svg" alt=""> -->
+    <div class="container flex bg-black">
+        <div class="left border">
+            <div class="close">
+                <img class="invert"  src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-gray rounded m-1 p-1">
+                <div class="logo invert"><img src="img/logo.svg" alt="logo"></div>
+                <ul>
+                    <li class=".flow-circular-regular"><img class="invert" src="img/home.svg" alt="home">Home</li>
+                    <li class="text-gray"><img class="invert" src="img/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1">
+                <div class="addplaylist">
+                    <ul>
+                        <li class="text-gray"><img src="img/Playlist.svg" alt="">Your Library <img class="plus" src="img/Addplaylist.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="songList">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="box">
+                </div>
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/us/legal/">Legal</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/us/safetyandprivacy/">Safety &amp; Privacy Center</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/us/legal/privacy-policy/">Privacy Policy</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/us/legal/cookies-policy/">Cookies</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/us/legal/privacy-policy/#s3">About Ads</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/us/accessibility/">Accessibility</a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/us/legal/notice-at-collection/">Notice at Collection</a>
+                    </div>
+                    <div>
+                        <button>
+                            Your Privacy Choices
+                        </button>
+                    </div>
+                    <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener">
+                        <span>Cookies</span>
+                    </a>
+                </div>
+                <button class="language"><img class="invert" src="img/language.svg" alt="">English</button>
+
+            </div>
+        </div>
+
+        <div class="right border">
+            <div class="header">
+                <div class="nav">
+                    <div class="navimages">
+                        <img class="invert hamburger" src="img/hamburger.svg" alt="">
+                        <button><img class="invert" src="img/forwardarrow.svg" alt=""></button>
+                        <button><img class="invert" src="img/backwardarrow.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button>Sign up</button>
+                    <button>Log in</button>
+                </div>
+            </div>
+            <div class="spotifyplaylist">
+                <h2>Spotify Playlist</h2>
+                <div class="cardcontainer">
+                   
+                    <!-- <div class="card">
+                        <button><img src="https://alfred.app/workflows/vdesabou/spotify-mini-player/icon.png" alt=""></button>
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67706f00000002e820714b484a98f6e61416da">
+                        <h3>Pop Rising</h3>
+                        <h5>Who's now and next in pop. Cover: Lizzy McAlpine</h5>
+                    </div>
+                    <div class="card">
+                        <button><img src="https://alfred.app/workflows/vdesabou/spotify-mini-player/icon.png" alt=""></button>
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67706f0000000263ef641f3fa47592fe798e91">
+                        <h3>Lofi Chill</h3>
+                        <h5>Lazy slow lofi beats for laid-back moments.</h5>
+                    </div>
+                    <div class="card card5">
+                        <button><img src="https://alfred.app/workflows/vdesabou/spotify-mini-player/icon.png" alt=""></button>
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67706f000000028d2c0fbb4e007f6dac9db559">
+                        <h3>Indie Rock Hits</h3>
+                        <h5>True indie rock hits.</h5>
+                    </div> -->
+
+                        
+                    
+
+
+
+                    
+
+                    
+
+                </div>
+                <div class="playbar">
+                    <div class="songinfo">
+                    </div>
+                    <div class="songbuttons">
+                        <img class="invert previousbutton" src="img/previousbutton.svg" alt="">
+                        <img class="invert PlayButton" src="img/Playbutton.svg" alt="">
+                        <img class="invert nextbutton" src="img/nextbutton.svg" alt="">
+                        <div class="songvol">
+                            <img class="invert volume" src="img/volume.svg" alt="">
+                            <input type="range" name="volume">
+                        </div>
+                    </div>
+                    <div class="audioslider">
+                        <span id="currentTime">0:00</span> 
+                        <input type="range" id="audioSlider" min="0" value="0" step="1">
+                        <span id="totalTime">0:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
