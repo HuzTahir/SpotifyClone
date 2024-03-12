@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+
+
+.border
+{
+    border: 2px solid black;
+    margin: 3px
+}
+.flex
+{
+    display: flex;
+}
+
+.justify-center
+{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+
+.invert
+{
+    filter: invert(1);
+}
+.bg-black
+{
+    background-color: black;
+    color: white;
+}
+.bg-gray
+{
+    background-color: #121212;
+}
+
+.rounded
+{
+    border-radius: 7px;
+}
+
+.m-1
+{
+    margin: 5px;
+}
+
+.p-1
+{
+    padding: 19px;
+}
+
+.text-gray
+{
+    color: #b3b3b3;
+}
+
+.flow-circular-regular {
+    font-family: "Flow Circular", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  /* Define scrollbar width and track color */
+/* Width and height of scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track (the background) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+
+  
