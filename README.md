@@ -13,7 +13,8 @@ Hamburger Menu: The library section can be accessed by clicking on a hamburger i
 
 <h1>How to Use</h1>
 Clone the repository to your local machine:
-  git clone https://github.com/your-username/spotify-clone.git
+  git clone https://github.com/your-username/spotify-clone.git.
+  
   Open the index.html file in your preferred web browser.
   
 Start exploring and enjoying the Spotify Clone!
@@ -33,6 +34,7 @@ You can check out a live demo of the Spotify Clone here: https://spotifyadvance.
 
 <h1>Contributions</h1>
 Contributions are welcome! If you have any ideas for improvements or find any issues, feel free to open an issue or create a pull request.
+
 
 Thank you for checking out the Spotify Clone project! If you have any questions or suggestions, feel free to contact me. Enjoy your music! 🎵
 
